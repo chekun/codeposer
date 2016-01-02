@@ -1,0 +1,15 @@
+{
+    "name": "codeposer/codeposer",
+    "description": "A better way to build modern CodeIgniter Applications.",
+    "keywords": ["starterkit", "codeposer", "codeigniter"],
+    "license": "MIT",
+    "type": "project",
+    "homepage": "http://codeposer.chekun.me",
+    "require": {
+        "codeigniter/framework": "3.0.3",
+        "codeposer/laravel-elixir-polyfill": "1.0.0"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
