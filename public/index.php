@@ -35,6 +35,7 @@
  * @since	Version 1.0.0
  * @filesource
  */
+include __DIR__.'/../bootstrap/autoload.php';
 /*
  *---------------------------------------------------------------
  * APPLICATION ENVIRONMENT
@@ -93,7 +94,7 @@ switch (ENVIRONMENT)
  * Include the path if the folder is not in the same directory
  * as this file.
  */
-	$system_path = __DIR__.'/../vendor/codeigniter/framework/system';
+	$system_path = CP_PATH.'vendor/codeigniter/framework/system';
 /*
  *---------------------------------------------------------------
  * APPLICATION FOLDER NAME
@@ -107,7 +108,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$application_folder = __DIR__.'/../app';
+	$application_folder = CP_PATH.'app';
 /*
  *---------------------------------------------------------------
  * VIEW FOLDER NAME
@@ -121,7 +122,7 @@ switch (ENVIRONMENT)
  *
  * NO TRAILING SLASH!
  */
-	$view_folder = __DIR__.'/../resources/views';
+	$view_folder = CP_PATH.'resources/views';
 /*
  * --------------------------------------------------------------------
  * DEFAULT CONTROLLER

@@ -7,7 +7,13 @@
     "homepage": "http://codeposer.chekun.me",
     "require": {
         "codeigniter/framework": "3.0.4",
-        "codeposer/laravel-elixir-polyfill": "1.0.0"
+        "codeposer/laravel-elixir-polyfill": "1.0.0",
+        "vlucas/phpdotenv": "~2.2.0"
+    },
+    "scripts": {
+        "post-root-package-install": [
+            "php -r \"copy('.env.example', '.env');\""
+        ]
     },
     "config": {
         "preferred-install": "dist"

@@ -4,6 +4,7 @@
     "gulp": "^3.8.8"
   },
   "dependencies": {
+    "bulma": "0.0.14",
     "laravel-elixir": "^4.0.0"
   }
 }
