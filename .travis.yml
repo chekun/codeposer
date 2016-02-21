@@ -9,5 +9,6 @@ php:
 before_script:
   - curl -s http://getcomposer.org/installer | php
   - php composer.phar install --dev
+  - php composer.phar run-script post-root-package-install
 
 script: phpunit
