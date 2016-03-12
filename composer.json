@@ -6,7 +6,7 @@
     "type": "project",
     "homepage": "http://codeposer.chekun.me",
     "require": {
-        "codeigniter/framework": "3.0.4",
+        "codeigniter/framework": "3.0.5",
         "codeposer/laravel-elixir-polyfill": "1.0.0",
         "vlucas/phpdotenv": "~2.2.0"
     },
