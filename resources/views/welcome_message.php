@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<title>Welcome to CodePoser</title>
 	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700" rel="stylesheet">
-	<link rel="stylesheet" href="<?php echo asset_url('css/app.css') ?>">
+	<link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
 

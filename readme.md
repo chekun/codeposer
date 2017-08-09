@@ -8,11 +8,13 @@ CodePoser
 
 A better way to build modern CodeIgniter Applications. [CodePoser website](http://codeposer.chekun.me)
 
+![screenshot](https://user-images.githubusercontent.com/1967804/29114747-cffb43c2-7d27-11e7-8cfa-dff5b3579a86.png)
+
 ### Features
 
 - We are now in the ```Composer``` world 
 - Built-in PHP web server
-- Modern workflow - taken advantage of ```laravel elixir```
+- Modern workflow - taken advantage of ```laravel mix```
 - Dead simple to use
 - More to come ...
 
@@ -31,10 +33,10 @@ composer create-project codeposer/codeposer .
 npm install
 ```
 
-- Run Gulp
+- Run Webpack
 
 ```
-gulp
+npm run dev
 ```
 
 - Start Server
@@ -50,8 +52,9 @@ Go and visit ```http://localhost:9999/```, and have fun.
 
 ### Thanks to
 
-- CodeIgniter
-- Laravel-Elixir
+- [CodeIgniter](https://github.com/bcit-ci/CodeIgniter)
+- [Laravel-Mix](https://github.com/JeffreyWay/laravel-mix)
+- [PHPDotenv](https://github.com/vlucas/phpdotenv)
 
 ### Licensce
 

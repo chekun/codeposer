@@ -1,6 +1,6 @@
 <?php
 
-class CodePoserTest extends PHPUnit_FrameWork_TestCase
+class CodePoserTest extends \PHPUnit\Framework\TestCase
 {
 
     protected $baseUrl = 'http://127.0.0.1:1349';
